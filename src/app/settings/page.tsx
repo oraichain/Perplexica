@@ -71,6 +71,7 @@ const Textarea = ({
   return (
     <div className="relative">
       <textarea
+        value={''}
         placeholder="Any special instructions for the LLM"
         className="placeholder:text-sm text-sm w-full flex items-center justify-between p-3 bg-light-secondary dark:bg-dark-secondary rounded-lg hover:bg-light-200 dark:hover:bg-dark-200 transition-colors"
         rows={4}

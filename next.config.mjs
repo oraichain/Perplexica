@@ -9,6 +9,9 @@ const nextConfig = {
     ],
   },
   serverExternalPackages: ['pdf-parse'],
+  devIndicators: {
+    position: 'top-right', // Change to desired position
+  },
 };
 
 export default nextConfig;
